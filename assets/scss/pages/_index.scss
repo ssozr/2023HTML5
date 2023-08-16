@@ -1,0 +1,12 @@
+.index {
+  .nav {
+    .nav-link.active {
+      background-color: #F8F9FA;
+    }
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    box-shadow: none;
+  }
+}

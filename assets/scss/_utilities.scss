@@ -1,0 +1,112 @@
+$types: (
+  0 : 0,
+  1 : 4px,
+  2 : 8px,
+  3 : 12px,
+  4 : 16px,
+  5 : 20px,
+  6 : 24px,
+  7 : 28px,
+  8 : 32px,
+  9 : 36px,
+  50 : 50px,
+) !default;
+
+@each $name, $space in $types {
+  .m-#{$name} {
+    margin: $space !important;
+  }
+  .mb-#{$name} {
+    margin-bottom: $space !important;
+  }
+  .mt-#{$name} {
+    margin-top: $space !important;
+  }
+  .me-#{$name} {
+    margin-right: $space !important;
+  }
+  .ms-#{$name} {
+    margin-left: $space !important;
+  }
+  .p-#{$name} {
+    padding: $space !important;
+  }
+  .pb-#{$name} {
+    padding-bottom: $space !important;
+  }
+  .pt-#{$name} {
+    padding-top: $space !important;
+  }
+  .pe-#{$name} {
+    padding-right: $space !important;
+  }
+  .ps-#{$name} {
+    padding-left: $space !important;
+  }
+  .py-#{$name} {
+    padding-left: $space !important;
+    padding-right: $space !important;
+  }
+  .px-#{$name} {
+    padding-left: $space !important;
+    padding-right: $space !important;
+  }
+}
+
+$font: (
+  12 : 12px,
+  14 : 14px,
+  24 : 24px,
+) !default;
+
+@each $name, $size in $font {
+    .fs-#{$name} {
+      font-size: $size !important;
+    }
+}
+
+.img-40 {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.border-CED4DA {
+  border-color: #CED4DA;
+}
+
+.btn-F8F9FA {
+  background-color: #F8F9FA;
+}
+
+.h-380 {
+  height: 380px;
+}
+
+.text-6C757D {
+  color: #6C757D;
+}
+
+.w-41 {
+width: 41%;
+}
+
+.w-100 {
+width: 100%;
+}
+
+.h-93 {
+height: 93px;
+}
+    
+.bg-gray-100 {
+    background-color: #F8F9FA;
+}
+
+.w-296 {
+width: 296px;
+}
+
+.h-100vh {
+min-height: 100vh;
+}

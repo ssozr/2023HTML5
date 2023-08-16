@@ -1,0 +1,23 @@
+
+  .header {
+    position: fixed;
+    .nav-pills .nav-link {
+      color: black;
+    }
+  
+    .nav-pills .nav-link.active {
+      color: #198754;
+      background-color: #F8F9FA;
+    }
+    
+    .nav-pills .nav-link.active::before {
+      content: "“";
+      background-color: #198754;
+      position: absolute;
+      left: 0;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  }
